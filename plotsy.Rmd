@@ -1,0 +1,8 @@
+---
+title: "Graphingstuff"
+author: "Ingólfur Gíslason"
+date: "12/13/2020"
+output: html_document
+---
+
+Þetta verða gröf með ggplot.
