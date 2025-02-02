@@ -4,29 +4,32 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Kafli 7 Sharing your book | Graphingstuff</title>
-  <meta name="description" content="<p>The HTML output format for this example is bookdown::gitbook,
+  <title>Chapter 7 Sharing your book | A Minimal Book Example</title>
+  <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
   <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Kafli 7 Sharing your book | Graphingstuff" />
+  <meta property="og:title" content="Chapter 7 Sharing your book | A Minimal Book Example" />
   <meta property="og:type" content="book" />
   
-  <meta property="og:description" content="<p>The HTML output format for this example is bookdown::gitbook,
+  <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Kafli 7 Sharing your book | Graphingstuff" />
+  <meta name="twitter:title" content="Chapter 7 Sharing your book | A Minimal Book Example" />
   
-  <meta name="twitter:description" content="<p>The HTML output format for this example is bookdown::gitbook,
+  <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
   
 
-<meta name="author" content="Ingólfur Gíslason" />
+<meta name="author" content="John Doe" />
 
 
-<meta name="date" content="2020-12-13" />
+<meta name="date" content="2025-02-02" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -163,7 +166,7 @@ div.csl-indent {
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">Tilraun</a></li>
+<li><a href="./">A Minimal Book Example</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About</a>
@@ -172,12 +175,9 @@ div.csl-indent {
 <li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#render-book"><i class="fa fa-check"></i><b>1.2</b> Render book</a></li>
 <li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#preview-book"><i class="fa fa-check"></i><b>1.3</b> Preview book</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="hello-bookdown.html"><a href="hello-bookdown.html"><i class="fa fa-check"></i><b>2</b> Hello bookdown</a>
+<li class="chapter" data-level="2" data-path="tetta-er-tilraun.html"><a href="tetta-er-tilraun.html"><i class="fa fa-check"></i><b>2</b> Tetta er tilraun</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="hello-bookdown.html"><a href="hello-bookdown.html#a-section"><i class="fa fa-check"></i><b>2.1</b> A section</a>
-<ul>
-<li class="chapter" data-level="" data-path="hello-bookdown.html"><a href="hello-bookdown.html#an-unnumbered-section"><i class="fa fa-check"></i>An unnumbered section</a></li>
-</ul></li>
+<li class="chapter" data-level="2.1" data-path="tetta-er-tilraun.html"><a href="tetta-er-tilraun.html#undirkafli"><i class="fa fa-check"></i><b>2.1</b> Undirkafli</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="cross.html"><a href="cross.html"><i class="fa fa-check"></i><b>3</b> Cross-references</a>
 <ul>
@@ -215,7 +215,7 @@ div.csl-indent {
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Graphingstuff</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Minimal Book Example</a>
           </h1>
         </div>
 
@@ -224,7 +224,7 @@ div.csl-indent {
 
             <section class="normal" id="section-">
 <div id="sharing-your-book" class="section level1 hasAnchor" number="7">
-<h1><span class="header-section-number">Kafli 7</span> Sharing your book<a href="sharing-your-book.html#sharing-your-book" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<h1><span class="header-section-number">Chapter 7</span> Sharing your book<a href="sharing-your-book.html#sharing-your-book" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <div id="publishing" class="section level2 hasAnchor" number="7.1">
 <h2><span class="header-section-number">7.1</span> Publishing<a href="sharing-your-book.html#publishing" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>HTML books can be published online, see: <a href="https://bookdown.org/yihui/bookdown/publishing.html" class="uri">https://bookdown.org/yihui/bookdown/publishing.html</a></p>
@@ -236,21 +236,12 @@ div.csl-indent {
 <div id="metadata-for-sharing" class="section level2 hasAnchor" number="7.3">
 <h2><span class="header-section-number">7.3</span> Metadata for sharing<a href="sharing-your-book.html#metadata-for-sharing" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Bookdown HTML books will provide HTML metadata for social sharing on platforms like Twitter, Facebook, and LinkedIn, using information you provide in the <code>index.Rmd</code> YAML. To setup, set the <code>url</code> for your book and the path to your <code>cover-image</code> file. Your book’s <code>title</code> and <code>description</code> are also used.</p>
-<!--bs4_book:start-->
-<p>This <code>bs4_book</code> provides enhanced metadata for social sharing, so that each chapter shared will have a unique description, auto-generated based on the content.</p>
-<p>Specify your book’s source repository on GitHub as the <code>repo</code> in the <code>_output.yml</code> file, which allows users to view each chapter’s source file or suggest an edit. Read more about the features of this output format here:</p>
-<p><a href="https://pkgs.rstudio.com/bookdown/reference/bs4_book.html" class="uri">https://pkgs.rstudio.com/bookdown/reference/bs4_book.html</a></p>
-<p>Or use:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="sharing-your-book.html#cb6-1" tabindex="-1"></a>?bookdown<span class="sc">::</span>bs4_book</span></code></pre></div>
-<!--bs4_book:end-->
-<!--gitbook:start-->
 <p>This <code>gitbook</code> uses the same social sharing data across all chapters in your book- all links shared will look the same.</p>
 <p>Specify your book’s source repository on GitHub using the <code>edit</code> key under the configuration options in the <code>_output.yml</code> file, which allows users to suggest an edit by linking to a chapter’s source file.</p>
 <p>Read more about the features of this output format here:</p>
 <p><a href="https://pkgs.rstudio.com/bookdown/reference/gitbook.html" class="uri">https://pkgs.rstudio.com/bookdown/reference/gitbook.html</a></p>
 <p>Or use:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="sharing-your-book.html#cb7-1" tabindex="-1"></a>?bookdown<span class="sc">::</span>gitbook</span></code></pre></div>
-<!--gitbook:end-->
 
 </div>
 </div>
@@ -302,7 +293,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["tilraun.pdf", "tilraun.epub"],
+"download": ["_main.pdf", "_main.epub"],
 "search": {
 "engine": "fuse",
 "options": null
